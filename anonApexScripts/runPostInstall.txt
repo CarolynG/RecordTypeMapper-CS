@@ -1,0 +1,3 @@
+PostInstallScript psi = new PostInstallScript();
+psi.enableRecordTypeMappingFeature();
+psi.createRecordTypeMapping();
