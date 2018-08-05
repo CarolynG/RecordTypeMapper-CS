@@ -4,7 +4,7 @@
     <active>true</active>
     <businessProcess>Process</businessProcess>
     <description>Type for Leads in the Not For Profit industry in North American countries</description>
-    <label>NA Non-Profit</label>
+    <label>NA Non Profit</label>
     <picklistValues>
         <picklist>Industry</picklist>
         <values>

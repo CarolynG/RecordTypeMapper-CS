@@ -9,14 +9,6 @@ private class Test_TriggerRecordTypeMapping {
         insertLead('US', 'Chemicals', 'Default Lead');
     }
 
-    @isTest static void testInsertLeadFeatureDisabled() {
-        //disable the feature
-        new FeatureService().setEnabled(false);
-
-        //insert a lead
-        insertLead('US', 'Government', 'Lead Intake');
-    }
-
     // Insert a lead with the given field values and verify that 
     // the inserted record has the expected record type
     static void insertLead(String countryCode, String industry, String expectedRecordTypeName) {

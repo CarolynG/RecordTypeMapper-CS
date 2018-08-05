@@ -19,7 +19,7 @@ public with sharing class CustomSettingsService {
 
     //Return a record that shows which record type name to use for the given countryCode
     //and industry values on a new lead.
-    public RecordTypeMapping__c getRecordTypeMappingping(String countryCode, String industry) {
+    public RecordTypeMapping__c getRecordTypeMapping(String countryCode, String industry) {
         RecordTypeMapping__c mapping = null;
 
         List<RecordTypeMapping__c> mappings =  [SELECT Id, RecordTypeName__c FROM RecordTypeMapping__c 

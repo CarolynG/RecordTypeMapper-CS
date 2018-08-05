@@ -4,7 +4,7 @@
     <active>true</active>
     <businessProcess>Process</businessProcess>
     <description>Type for Leads in the Not For Profit industry in European, Middle East, and African countries</description>
-    <label>EMEA Non-Profit</label>
+    <label>EMEA Non Profit</label>
     <picklistValues>
         <picklist>Industry</picklist>
         <values>
