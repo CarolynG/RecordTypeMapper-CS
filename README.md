@@ -11,11 +11,11 @@ This repo is structured as a Salesforce DX project and is ready to be pushed to 
 2. Make sure you have authenticated with a Salesforce developer hub org. (To sign up a trial: https://developer.salesforce.com/promotions/orgs/dx-signup)
 3. Create a new scratch organization using the project-scratch-def.json definition in this project.
 
-`sfdx force:org:create -f config/project-scratch-def.json -a myCmtOrg`
+`sfdx force:org:create -f config/project-scratch-def.json -a myCsOrg`
  
 4. Open the scratch org.
 
-`sfdx force:org:open -u myCmtOrg`
+`sfdx force:org:open -u myCsOrg`
 
 5. Create custom setting records in the scratch org by executing the apex in `anonApexScripts/runPostInstall.txt`
 
