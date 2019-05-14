@@ -1,4 +1,4 @@
-# RecordTypeMapper @ Forcelandia 2018
+# RecordTypeMapper CMT Transition Demo
 ## Custom Settings - The "Before"
 The RecordTypeMapper application uses field values on new Lead records to determine which record type the new Lead should have.
 
